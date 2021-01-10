@@ -53,7 +53,7 @@ public class Domino implements Comparable<Domino> {
     ly = ty;    
   }
 
-  public boolean ishl() {    
+  public boolean ishequall() {    
     return hy==ly;
   }
 
