@@ -12,7 +12,9 @@ public class PictureFrame {
     public void drawGrid(Graphics g) {
       for (int are = 0; are < 7; are++) {
         for (int see = 0; see < 8; see++) {
-          drawDigitGivenCentre(g, 30 + see * 20, 30 + are * 20, 20,
+          private static final int num2 = 30;
+          private static final int num1 = 20;
+          drawDigitGivenCentre(g, num2 +see * num1, num2 + are * num1, num1
               master.grid[are][see]);
         }
       }
