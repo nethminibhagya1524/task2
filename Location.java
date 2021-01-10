@@ -1,7 +1,6 @@
 
 public class Location extends SpacePlace {
-  public int c;
-  public int r;
+  public int c, r;
   public DIRECTION d;
   
   public enum DIRECTION {VERTICAL, HORIZONTAL};
