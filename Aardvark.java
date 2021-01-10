@@ -584,7 +584,7 @@ public class Aardvark {
                 } else {
                   score -= 100;
                 }
-                playerName = playerName + "(scoundrel)";
+                playerNamenew = playerName + "(scoundrel)";
                 cf++;
                 break;
               default:
